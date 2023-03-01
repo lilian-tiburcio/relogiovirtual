@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(37, 37, 37);
+  }
+
+    .clock {
+        font-family: 'Rampart One', cursive;
+        font-size: 90px;
+        color: #c5c2c2;
+    }
+    .clock{
+        background: rgb(37, 37, 37);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        height: 200px;
+        width: 450px;
+        position: relative;
+        
+      }
+
+      .clock::before, .clock::after{
+        content: '';
+        position: absolute;
+        z-index: -1;
+        width: calc(100% + 30px);
+        height: calc(100% + 30px);
+        background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff,#a200ff,#ff0055,#ff0000,#ffff00, #00ff00, #0099ff, #001aff,#a200ff);
+        border-radius: 20px;
+        background-size: 300%;
+        animation: AnimarBorda 8s linear infinite;
+      }
+
+      .clock::after{
+        filter: blur(10px);
+      }
+
+      @keyframes AnimarBorda{
+        0%{
+            background-position: 0;
+        }
+        100%{
+            background-position: 300%;
+        }
+      }
