@@ -4,7 +4,7 @@
 
 <h1>Descrição do Projeto</h1>
 
-<p> O projeto Relógio Virtual foi desenvolvido logo após a conclusão a formação no curto de JavaScript, assim aplicando todos os conhecimentos JS. E aqui também apliquei os conhecimentos em CSS, mais especificamente explorando animações em CSS.</p>
+<p> O projeto Relógio Virtual foi desenvolvido logo após a conclusão a formação no curto de JavaScript,sendo assim o primeiro projeto realizado. Aplicando todos os conhecimentos JS. E aqui também apliquei os conhecimentos em CSS, mais especificamente explorando animações em CSS.</p>
 
 <h2>:hammer:Funcionalidades</h2>
 <p>Trata-se de um relógio digital virtual.</p>
