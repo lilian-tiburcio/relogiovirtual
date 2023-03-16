@@ -53,3 +53,52 @@
             background-position: 300%;
         }
       }
+
+@keyframes AnimarBorda{
+        0%{
+            background-position: 0;
+        }
+        100%{
+            background-position: 300%;
+        }
+      }
+      
+      @media screen and (min-width: 570px){
+        .clock{
+          font-size: 80px;
+          height: 200px;
+        width: 350px;
+        }
+      }
+      
+      @media screen and (min-width: 480px){
+        .clock{
+          font-size: 80px;
+          height: 200px;
+        width: 350px;
+        }
+      }
+
+      @media screen and (min-width: 375px){
+        .clock{
+          font-size: 60px;
+          height: 200px;
+        width: 250px;
+        }
+      }
+
+      @media screen and (min-width: 400px){
+        .clock{
+          font-size: 60px;
+          height: 200px;
+        width: 250px;
+        }
+      }
+
+      @media screen and (min-width: 360px){
+        .clock{
+          font-size: 60px;
+          height: 200px;
+        width: 250px;
+        }
+      }
